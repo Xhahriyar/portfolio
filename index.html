@@ -45,6 +45,7 @@
       }
 
       /* Mobile menu animation */
+      /* Mobile menu animation */
       .mobile-menu {
         transform: translateX(-100%);
         transition: transform 0.3s ease-in-out;
@@ -234,18 +235,18 @@
         <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
           About Me
         </h2>
-        <div class="grid md:grid-cols-2 gap-12 items-center">
-          <div>
+        <div class="grid md:grid-cols-2 gap-12 justify-center items-center">
+          <div class="flex justify-center items-center">
             <div
-              class="w-[300px] h-[300px] bg-gray-300 rounded-full mx-auto mb-8 md:mb-0"
+              class="w-[100px] h-[100px] md:w-[300px] md:h-[300px] bg-gray-300 rounded-full mx-auto mb-8 md:mb-0"
             >
               <img
-                class="w-[280px] h-[280px] bg-gray-300 rounded-full mx-auto mb-8 md:mb-0"
+                class="w-[100px] h-[100px] md:w-[300px] md:h-[300px] bg-gray-300 rounded-full mx-auto mb-8 md:mb-0"
                 src="https://media.licdn.com/dms/image/v2/D4D03AQFwu-eJ0h_I0g/profile-displayphoto-crop_800_800/B4DZhH7FFxGgAI-/0/1753553336384?e=1760572800&v=beta&t=C02CbYjdu99dXflka4_EDZq9XGPPCBxIKOGH9IYPLkM"
               />
             </div>
           </div>
-          <div class="space-y-6">
+          <div>
             <p class="text-lg leading-relaxed">
               I'm a dedicated software engineer with 2 years of experience
               building and maintaining web applications. Proven track record as
@@ -261,7 +262,7 @@
               contributing to open-source projects, or enjoying a good cup of
               coffee while sketching new design ideas.
             </p>
-            <div class="flex space-x-4 pt-4">
+            <div class="flex flex-wrap space-x-4 pt-4">
               <span class="px-3 py-1 bg-white rounded-full text-sm border"
                 >TypeScript</span
               >
@@ -304,7 +305,7 @@
                 style="background-color: #000"
               ></div>
               <div class="bg-gray-50 p-6 rounded-lg">
-                <h3 class="text-xl font-semibold">Software Engineer |</h3>
+                <h3 class="text-xl font-semibold">Software Engineer</h3>
                 <p class="text-gray-600 mb-2">
                   TEKs Pvt Ltd. • Mar, 2024 - Present
                 </p>
@@ -597,7 +598,7 @@
             >
               <div>
                 <h3 class="text-xl font-semibold mb-2">
-                 🤝 Support Case Application Management System
+                  🤝 Support Case Application Management System
                 </h3>
                 <p class="text-gray-600">
                   Comprehensive front desk software for a Lahore-based
@@ -911,7 +912,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -966,10 +966,14 @@
         <p class="text-xl text-gray-600 mb-8">
           Let's work together to create something impactful!
         </p>
-        
-        <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-2">
+
+        <div
+          class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-2"
+        >
           <!-- Email Button -->
-          <div class="flex items-center space-x-3 bg-white border border-gray-200 rounded-xl px-4 py-2 hover:shadow-lg transition-all duration-300 cursor-pointer group">
+          <div
+            class="flex items-center space-x-3 bg-white border border-gray-200 rounded-xl px-4 py-2 hover:shadow-lg transition-all duration-300 cursor-pointer group"
+          >
             <svg
               class="w-6 h-6 text-gray-600 group-hover:text-blue-600 transition-colors"
               fill="none"
@@ -986,14 +990,17 @@
             <a
               href="mailto:shahriyarahmad405@gmail.com"
               class="text-lg text-gray-700 group-hover:text-blue-600 transition-colors font-medium"
-            >Email Me</a>
+              >Email Me</a
+            >
           </div>
 
           <!-- LinkedIn Button -->
-          <div class="flex items-center space-x-3 bg-white border border-gray-200 rounded-xl px-4 py-2 hover:shadow-lg transition-all duration-300 cursor-pointer group">
-            <svg 
-              class="w-6 h-6 text-gray-600 group-hover:text-blue-600 transition-colors" 
-              fill="currentColor" 
+          <div
+            class="flex items-center space-x-3 bg-white border border-gray-200 rounded-xl px-4 py-2 hover:shadow-lg transition-all duration-300 cursor-pointer group"
+          >
+            <svg
+              class="w-6 h-6 text-gray-600 group-hover:text-blue-600 transition-colors"
+              fill="currentColor"
               viewBox="0 0 24 24"
             >
               <path
@@ -1001,14 +1008,17 @@
               />
             </svg>
             <a
-            target="_blank"
+              target="_blank"
               href="https://www.linkedin.com/in/shahriyar-ahmad-frontend-developer/"
               class="text-lg text-gray-700 group-hover:text-blue-600 transition-colors font-medium"
-            >LinkedIn</a>
+              >LinkedIn</a
+            >
           </div>
 
           <!-- Download Resume Button -->
-          <div class="flex items-center space-x-3 bg-white border border-gray-200 rounded-xl px-4 py-2 hover:shadow-lg transition-all duration-300 cursor-pointer group">
+          <div
+            class="flex items-center space-x-3 bg-white border border-gray-200 rounded-xl px-4 py-2 hover:shadow-lg transition-all duration-300 cursor-pointer group"
+          >
             <svg
               class="w-6 h-6 text-gray-600 group-hover:text-green-600 transition-colors"
               fill="none"
@@ -1026,12 +1036,10 @@
               href="Shahriyar_ Ahmad_Software_ Engineer_Resume.pdf"
               class="text-lg text-gray-700 group-hover:text-green-600 transition-colors font-medium"
               download=""
-            >Download Resume</a>
+              >Download Resume</a
+            >
           </div>
         </div>
-      </div>
-    </section>
-
       </div>
     </section>
 
@@ -1050,10 +1058,24 @@
 
       // Mobile menu toggle
       const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+      const closeMenuBtn = document.getElementById("close-menu-btn");
       const mobileMenu = document.getElementById("mobile-menu");
 
+      // Open menu
       mobileMenuBtn.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
+        mobileMenu.classList.add("open");
+      });
+
+      // Close when clicking X
+      closeMenuBtn.addEventListener("click", () => {
+        mobileMenu.classList.remove("open");
+      });
+
+      // Close when clicking any nav link
+      document.querySelectorAll(".mobile-nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("open");
+        });
       });
 
       // Project toggle functionality
